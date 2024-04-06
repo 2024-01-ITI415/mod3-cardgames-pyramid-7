@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Pyramid
+namespace PyramidGame
 {
 
 [System.Serializable]
@@ -20,7 +20,7 @@ public class SlotDef
     public Vector2 stagger;
 }
 
-public class Layout : MonoBehaviour
+public class Pyramid : MonoBehaviour
 {
     public PT_XMLReader xmlr;
     public PT_XMLHashtable xml;
